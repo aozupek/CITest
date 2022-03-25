@@ -1,6 +1,9 @@
 name: Actions
 
-on: [push, pull_request, tag]
+on:
+  push:
+    tags:
+      - v**
 
 jobs:
   build:
