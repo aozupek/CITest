@@ -1,0 +1,6 @@
+- name: Checkout
+  uses: actions/checkout@v3.0.0
+- name: Cache
+  uses: actions/cache@v3.0.0
+- name: Unity - Builder
+  uses: game-ci/unity-builder@v2.0.0-alpha-14
